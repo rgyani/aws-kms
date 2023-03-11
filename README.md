@@ -154,7 +154,7 @@ You cannot manage key rotation for AWS managed CMKs. AWS KMS automatically rotat
 ###### AWS owned CMKs
 You cannot manage key rotation for AWS owned CMKs. The key rotation strategy for an AWS owned CMK is determined by the AWS service that creates and manages the CMK.
 
-######Monitoring key rotation
+###### Monitoring key rotation
 When AWS KMS automatically rotates the key material for an AWS managed CMK or customer-managed CMK, it writes the KMS CMK Rotation event to Amazon CloudWatch Events. You can use this event to verify that the CMK was rotated.
 
 Automatic key rotation is not supported on the following types of CMKs, but you can rotate these CMKs manually.
